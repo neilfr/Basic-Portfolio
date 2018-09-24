@@ -78,6 +78,15 @@ a{
     padding-right:20px;
     float:left;
 }
+
+#textField1{
+    background-color:red;
+    size:45px;
+}
+
+.textBox{
+    width:100%;
+}
 #bottom{
     color:white; /* not the right color */
     clear: both;
