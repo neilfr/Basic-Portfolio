@@ -79,13 +79,14 @@ a{
     float:left;
 }
 
-#textField1{
+.textField{
     background-color:red;
-    size:45px;
+    width:100%;
 }
 
 .textBox{
-    width:100%;
+    background-color:red;
+    size:500; /* not working */
 }
 #bottom{
     color:white; /* not the right color */
