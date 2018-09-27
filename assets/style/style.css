@@ -46,6 +46,10 @@ a{
     padding-left: 20px;
 }
 
+p{
+    line-height: 2;
+}
+
 #main{
     background-image:url("../images/gravel.png");
     padding:20px 20px 60px 20px;
@@ -64,8 +68,9 @@ a{
 #mainTitle{
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size:24px;
-    padding:20px 0px;
+    padding-bottom:20px;
     border-bottom:2px solid #dddddd;
+    color:#4aaaa5;
 }
 
 #mainParagraph{
@@ -80,13 +85,11 @@ a{
 }
 
 .textField{
-    background-color:red;
-    width:100%;
+    width: 920px;
 }
 
 .textBox{
-    background-color:red;
-    size:500; /* not working */
+    width:920px;
 }
 #bottom{
     color:white; /* not the right color */
