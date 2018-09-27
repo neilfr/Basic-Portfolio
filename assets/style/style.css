@@ -84,6 +84,16 @@ p{
     float:left;
 }
 
+.textFieldTitleTop{
+    line-height:1;
+
+    margin:20px 10px 10px 10px;
+}
+.textFieldTitle{
+    line-height:1;
+
+    margin:10px;
+}
 .textField{
     width: 920px;
 }
@@ -91,6 +101,16 @@ p{
 .textBox{
     width:920px;
 }
+
+#button{
+    margin-top:20px;
+    background-color:#4aaaa5;
+    color:white;
+    width:100px;
+    height:35px;
+    border:none;
+}
+
 #bottom{
     color:white; /* not the right color */
     clear: both;
