@@ -87,12 +87,12 @@ p{
 .textFieldTitleTop{
     line-height:1;
 
-    margin:20px 10px 10px 10px;
+    margin:20px 0px 10px 0px;
 }
 .textFieldTitle{
     line-height:1;
 
-    margin:10px;
+    margin:10px 0px;
 }
 .textField{
     width: 920px;
