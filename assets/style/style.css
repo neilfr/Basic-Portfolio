@@ -48,9 +48,15 @@ a{
     padding-left: 20px;
 }
 
+
 /* forcing the "unvisited" color for review purposes, so I don't have to keep clearing my cache.  Normally wouldn't do this. */
 a:visited{
     color: #777777;
+}
+
+a:visited:hover{
+    color:black;
+    font-weight:bold;
 }
 
 #main{
@@ -121,6 +127,10 @@ p{
     height:200px;
 }
 
+.portfolioProject:hover{
+    opacity: 0.5;
+}
+
 .imageLabel{
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size:20px;
@@ -162,4 +172,6 @@ p{
     height:35px;
     border:none;
 }
+
+#button:hover {background-color:#008080;}
 /* end of styles specifically for "Contact Me" page */
