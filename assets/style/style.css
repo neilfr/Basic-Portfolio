@@ -16,6 +16,7 @@ body {
 
 #topContentLeft{
     font-size:24px;
+    font-weight: bold;
     float:left;
     color:white;
     background-color:#4aaaa5;
@@ -63,11 +64,14 @@ p{
     border-left: 2px solid #dddddd;
     border-right: 2px solid #dddddd;
     border-bottom: 2px solid #dddddd;
+    overflow: auto;
+
 }
 
 #mainTitle{
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size:24px;
+    font-weight: bold;
     padding-bottom:20px;
     border-bottom:2px solid #dddddd;
     color:#4aaaa5;
@@ -75,27 +79,28 @@ p{
 
 #mainParagraph{
     font-size:12px;
-    overflow:auto;
+
 }
 
 #me{
     padding-top:15px;
     padding-right:20px;
     float:left;
+    height:100px;
+    width:100px;
 }
 
 .textFieldTitleTop{
     line-height:1;
-
     margin:20px 0px 10px 0px;
 }
 .textFieldTitle{
     line-height:1;
-
     margin:10px 0px;
 }
 .textField{
     width: 920px;
+    line-height:1.5;
 }
 
 .textBox{
@@ -109,6 +114,36 @@ p{
     width:100px;
     height:35px;
     border:none;
+}
+
+.column{
+    padding-top:20px;
+    float: left;
+    width:320px;
+}
+/*
+.portfolioItem{
+    width: 350px;
+    height: 210px;
+
+}
+*/
+
+.portfolioImage{
+    width:290px;
+    height:200px;
+}
+
+.imageLabel{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size:20px;
+    color: white;
+    background-color:4aaaa5;
+    position: relative;
+    top: -93px;
+    line-height: 64px;
+    text-align: center;
+    width:290px;
 }
 
 #bottom{
